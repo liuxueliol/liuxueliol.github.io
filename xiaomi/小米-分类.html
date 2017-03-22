@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="author" content="liu">
+        <title>小米-分类</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <style> 
+            nav{
+                background-color:white;
+                /*position: fixed;
+                z-index: 1;*/
+            }
+            nav ul{
+                padding: 5px;
+                width: 500%;
+                margin-bottom: 0px;
+            }
+            nav ul li{
+                float: left;
+                margin: 0px 10px; 
+            } 
+            nav ul li a{
+                text-decoration:none; 
+            }
+            ul::after{
+                display: block;
+                content: " ";
+                visibility: hidden;
+                height: 0px;
+                clear: both;
+            }  
+
+            #shouji div div{
+                width: 33.33%;
+            }
+            #shouji div img{
+                width:100%;
+            }
+
+            #pingban div div{
+                width: 33.33%;
+            }
+            #pingban div img{
+                width: 100%;
+            }
+
+            #dianshi div div{
+                width: 33.33%;
+            }
+            #dianshi div img{
+                width: 100%;
+            }
+            .navbar-fixed-bottom figure a{
+                color: black;
+            }
+            .navbar-fixed-bottom figure a:hover{
+                color: orangered;
+                text-decoration: none; 
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid" style="padding: 0px;background-color: navajowhite;overflow: hidden;">
+            <!--1.-->
+            <div style="padding: 0px 10px;display: flex;justify-content: space-between;align-items: center;">
+                <a href="#"><img src="image/mimax单页/icon_back_n.png" alt="" style="height: 20px;width: 20px"></a>
+                <h2 style="font-size: 2rem;color: grey;display: inline;padding-bottom: 5px;">商品分类</h2>
+                <span class="glyphicon glyphicon-search" style="color: grey"></span>
+            </div>
+            <!--2.导航条-->
+            <nav>
+                <ul style="list-style: none;">
+                    <li><a href="#shouji">手机·电话卡</a></li>
+                    <li><a href="#pingban">笔记本·平板</a></li>
+                    <li><a href="#dianshi">电视·盒子</a></li>
+                    <li><a href="#">智能硬件·路由器</a></li>
+                    <li><a href="#">移动电源·插线板·电池</a></li>
+                    <li><a href="#">耳机·音响·存储卡</a></li>
+                    <li><a href="#">小米生活方式</a></li>
+                    <li><a href="#">保护类配件</a></li>
+                    <li><a href="#">优惠套装</a></li>
+                </ul>
+            </nav>
+            <!--3.图-->
+            <div style="margin-top: 5px">
+                <a href="#"><img src="image/mimall/liu.png" alt="" style="width: 100%"></a>
+            </div>
+            <!--4.手机·电话卡-->
+            <div id="shouji" style="text-align: center;margin-top: 10px; background-color: whitesmoke">
+                <h4 style="padding: 15px 0px;margin-bottom: 0px">手机·电话卡</h4>
+                <div style="display: flex;justify-content: space-between;">
+                    <div class="box1">
+                        <a href="#"><img src="image/mimall/sec-1.jpg" alt=""></a>
+                        <h6>小米5c</h6>
+                    </div>
+                    <div class="box2">
+                        <a href="#"><img src="image/mimall/sec-2.jpg" alt=""></a>
+                        <h6>小米MIX</h6>
+                    </div>
+                    <div class="box3">
+                        <a href="#"><img src="image/mimall/sec-3.jpg" alt=""></a>
+                        <h6>小米5</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!--3.图-->
+            <div style="margin-top: 5px">
+                <a href="#"><img src="image/商品列表/banner.jpg" alt="" style="width: 100%"></a>
+            </div>
+
+            <!--5.笔记本·平板-->
+            <div id="pingban" style="text-align: center;margin-top: 10px; background-color: whitesmoke;line-height: 20px;">
+                <h4 style="padding: 15px 0px;margin-bottom: 0px">笔记本·平板</h4>
+                <div style="display: flex;justify-content: space-between;">
+                    <div class="box1">
+                        <a href="#"><img src="image/mimall/sec-7.jpg" alt=""></a>
+                        <h6>笔记本12.5"</h6>
+                    </div>
+                    <div class="box2">
+                        <a href="#"><img src="image/mimall/sec-8.jpg" alt=""></a>
+                        <h6>笔记本13.3"</h6>
+                    </div>
+                    <div class="box3">
+                        <a href="#"><img src="image/mimall/sec-7.jpg" alt=""></a>
+                        <h6>笔记本12.5"</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!--3.图-->
+            <div style="margin-top: 5px">
+                <a href="#"><img src="image/商品列表/banner.jpg" alt="" style="width: 100%"></a>
+            </div>
+
+            <!--5.电视·盒子-->
+            <div id="dianshi" style="text-align: center;margin-top: 10px; background-color: whitesmoke;line-height: 20px;">
+                <h4 style="padding: 15px 0px;margin-bottom: 0px">电视·盒子</h4>
+                <div style="display: flex;justify-content: space-between;">
+                    <div class="box1">
+                        <a href="#"><img src="image/mimall/sec-7.jpg" alt=""></a>
+                        <h6>小米电视48*</h6>
+                    </div>
+                    <div class="box2">
+                        <a href="#"><img src="image/mimall/sec-7.jpg" alt=""></a>
+                        <h6>小米电视58*</h6>
+                    </div>
+                    <div class="box3">
+                        <a href="#"><img src="image/mimall/sec-7.jpg" alt=""></a>
+                        <h6>小米电视66*</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--6.底部导航条-->
+            <nav class="navbar-default navbar-fixed-bottom" style="z-index: 1; padding-top: 10px;">
+                <div class="container-fluid" style="padding: 0px;">
+                    <figure class="shouye" style="width: 25%;float: left;text-align: center;">
+                        <a href="小米-首页.html" class="glyphicon glyphicon-home">
+                        <h6 style="margin-top: 2px;">首页</h6></a>
+                    </figure>
+                    <figure class="fenlei" style="width: 25%;float: left;text-align: center;">
+                        <a href="#" class="glyphicon glyphicon-search">
+                        <h6 style="margin-top: 2px;">分类</h6></a>
+                    </figure>
+                    <figure class="gouwuche" style="width: 25%;float: left; text-align: center;">
+                        <a href="小米-购物车.html" class="glyphicon glyphicon-gift">
+                         <h6 style="margin-top: 2px;">购物车</h6></a>
+                    </figure>
+                    <figure class="my" style="width: 25%;float: left; text-align: center;">
+                        <a href="小米-我的.html" class="glyphicon glyphicon-user">
+                        <h6 style="margin-top: 2px;">我的</h6></a>
+                    </figure>
+                </div>
+            </nav>
+
+
+        </div>
+        
+        <script src="bootstrap/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

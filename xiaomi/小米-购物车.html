@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="author" content="liu">
+        <title>小米-购物车</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .navbar-fixed-bottom figure a{
+                color: black;
+            }
+            .navbar-fixed-bottom figure a:hover{
+                color: orangered;
+                text-decoration: none;
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid" style="padding: 0px;">
+            <!--1.购物车-->
+            <div style="padding: 0px 10px;display: flex;justify-content: space-between;align-items: center;background-color:lightgrey">
+                <a href="#" style="text-decoration: none;"><img src="image/mimax单页/icon_back_n.png" alt="" style="height: 20px;width: 20px"></a>
+                <h2 style="font-size: 2rem;color: grey;display: inline;padding-bottom: 5px;">购物车</h2>
+                <a href="#" style="text-decoration: none;"><span class="glyphicon glyphicon-search" style="color: grey"></span></a>
+            </div>
+            <!--2.去登录-->
+            <div style="padding:0px 10px;display: flex;justify-content: space-between;align-items: center;">
+                <h5 style="display:inline">登陆后享受更多优惠</h5>
+                <a href="#"><span>去登陆&nbsp;&nbsp;></span></a>
+            </div>
+            <!--3.去逛逛-->
+            <div style="background-color: lightgray;text-align: center;padding: 5px 0px;">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+                <span style="margin-left:10px;margin-right:10px;color: gray">购物车还是空的</span>
+                <a href="#" style="text-decoration: none;"><button style="background-color: lightgray;color: black;border: 1px solid gray;padding: 0px 5px; ">去逛逛</button></a>
+            </div>
+            <!--4.为你推荐-->
+            <main>
+                <h5>为你推荐</h5>
+                <div class="left" style="width: 49%;float: left;">
+                    <div class="noe">
+                        <a href="#" style="text-decoration: none;"><img src="image/mimall/fan.png" alt="" style="width: 100%;"></a>
+                        <ul style="list-style:none;padding:0px 10px;">
+                            <li>米家智能电饭煲</li>
+                            <li style="color: red"><sup>￥</sup>999</li>
+                        </ul>
+                    </div>
+                    <div class="er">
+                        <a href="#" style="text-decoration: none;"><img src="image/mimall/erji.png" alt="" style="width: 100%;"></a>
+                        <ul style="list-style:none;padding:0px 10px;">
+                            <li>小米蓝牙耳机</li>
+                            <li style="color: red"><sup>￥</sup>179</li>
+                        </ul>
+                    </div>
+                    <div class="san">
+                        <a href="#"  style="text-decoration: none;"><img src="image/mimall/mitu.png" alt="" style="width: 100%;"></a>
+                        <ul style="list-style:none;padding:0px 10px;">
+                            <li>米兔智能故事机</li>
+                            <li style="color: red"><sup>￥</sup>199</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="right" style="width:49%;float: right;">
+                    <div class="noe">
+                        <a href="#"  style="text-decoration: none;"><img src="image/mimall/che.png" alt="" style="width: 100%;"></a>
+                        <ul style="list-style:none;padding:0px 10px;">
+                            <li>九号平衡车</li>
+                            <li style="color: red"><sup>￥</sup>1999</li>
+                        </ul>
+                    </div>
+                    <div class="er">
+                        <a href="#"  style="text-decoration: none;"><img src="image/mimall/jinghuaqi.png" alt="" style="width: 100%;"></a>
+                        <ul style="list-style:none;padding:0px 10px;">
+                            <li>米家空气净化器</li>
+                            <li style="color: red"><sup>￥</sup>1499</li>
+                        </ul>
+                    </div>
+                    <div class="san">
+                        <a href="#"  style="text-decoration: none;"><img src="image/mimall/shubiao.png" alt="" style="width: 100%;"></a>
+                        <ul style="list-style:none;padding:0px 10px;">
+                            <li>小米便携鼠标</li>
+                            <li style="color: red"><sup>￥</sup>99</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </main>
+
+            <!--6.底部导航条-->
+            <nav class="navbar-default navbar-fixed-bottom" style="z-index: 1; padding-top: 10px;">
+                <div class="container-fluid" style="padding: 0px;">
+                    <figure class="shouye" style="width: 25%;float: left;text-align: center;">
+                        <a href="小米-首页.html" class="glyphicon glyphicon-home">
+                        <h6 style="margin-top: 2px;">首页</h6></a>
+                    </figure>
+                    <figure class="fenlei" style="width: 25%;float: left;text-align: center;">
+                        <a href="小米-分类.html" class="glyphicon glyphicon-search">
+                        <h6 style="margin-top: 2px;">分类</h6></a>
+                    </figure>
+                    <figure class="gouwuche" style="width: 25%;float: left; text-align: center;">
+                        <a href="#" class="glyphicon glyphicon-gift">
+                         <h6 style="margin-top: 2px;">购物车</h6></a>
+                    </figure>
+                    <figure class="my" style="width: 25%;float: left; text-align: center;">
+                        <a href="小米-我的.html" class="glyphicon glyphicon-user">
+                        <h6 style="margin-top: 2px;">我的</h6></a>
+                    </figure>
+                </div>
+            </nav>
+
+
+
+
+
+        </div>
+
+        
+        <script src="bootstrap/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

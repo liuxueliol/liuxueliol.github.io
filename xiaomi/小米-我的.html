@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="author" content="liu">
+        <title>小米-我的</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .navbar div,h6{
+                display: inline-block;
+            }
+            .daifukuan::after{
+                display: block;
+                content: " ";
+                visibility: hidden;
+                height: 0px;
+                clear: both;
+            }
+           h5{
+               display: inline-block;
+           }
+           .navbar-fixed-bottom figure a{
+                color: black;
+            }
+            .navbar-fixed-bottom figure a:hover{
+                color: orangered;
+                text-decoration: none;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid" style="padding: 0px;background-color: lightgrey">
+            <!--1.导航条-->
+            <nav class="navbar" style="background-color: darkorange;line-height: 50px;margin: 0px;">
+                <a href="#" style="text-decoration: none;"><div style="width: 50px;height: 50px;background-color: orange;border-radius: 50%;text-align: center;margin: 5px;">
+                    <span class="glyphicon glyphicon-user"></span>
+                </div>
+                <h6>登录/注册</h6></a>
+            </nav>
+            <!--2.我的订单-->
+            <div style="background-color: white;padding:0px 10px;display: flex;justify-content: space-between;align-items: center;border-bottom: 1px solid grey;">
+                <h5 style="display:inline">我的订单</h5>
+                <a href="#"  style="text-decoration: none;"><span>全部订单&nbsp;&nbsp;></span></a>
+            </div>
+            <!--3.代付款-->
+            <div class="daifukuan" style="padding: 10px 0px;background-color: white;margin-bottom: 10px;">
+                <figure style="width: 33.33%;float: left; text-align: center;">
+                    <a href="#" class="glyphicon glyphicon-usd"style="text-decoration: none;"></a><br>
+                    <h6 style="margin-top: 2px;">待付款</h6>
+                </figure>
+                <figure style="width: 33.33%;float: left; text-align: center;">
+                    <a href="#" class="glyphicon glyphicon-gift" style="text-decoration: none;"></a><br>
+                    <h6 style="margin-top: 2px;">待收货</h6>
+                </figure>
+                <figure style="width: 33.33%;float: left; text-align: center;">
+                    <a href="#" class="glyphicon glyphicon-wrench" style="text-decoration: none;"></a><br>
+                    <h6 style="margin-top: 2px;">退换修</h6>
+                </figure>
+            </div>
+            <!--4.我的优惠-->
+            <div style="background-color: white;padding:0px 20px;margin-bottom: 10px;">
+                <a href="#" style="text-decoration: none;"><span class="glyphicon glyphicon-gift"></span>
+                <h5 style="padding:10px 10px;">我的优惠</h5>
+                <span style="position: absolute;right: 20px;margin-top: 19px;">&gt;</span></a>
+            </div>
+            <!--5-6.服务中心-小米之家-->
+            <div style="background-color: white;padding:0px 20px;border-bottom: 1px solid grey;">
+                <a href="#" style="text-decoration: none;"><span class="glyphicon glyphicon-heart"></span>
+                <h5 style="padding:10px 10px;">服务中心</h5>
+                <span style="position: absolute;right: 20px;margin-top: 19px;">&gt;</span></a>
+            </div>
+            <div style="background-color: white;padding:0px 20px;margin-bottom: 10px;">
+                <a href="#" style="text-decoration: none;"><span class="glyphicon glyphicon-home"></span>
+                <h5 style="padding:10px 10px;">小米之家</h5>
+                <span style="position: absolute;right: 20px;margin-top: 19px;">&gt;</span></a>
+            </div>
+            <!--7.设置-->
+            <div style="background-color: white;padding:0px 20px;margin-bottom: 10px;">
+                <a href="#" style="text-decoration: none;"><span class="glyphicon glyphicon-cog"></span>
+                <h5 style="padding:10px 10px;">设置</h5>
+                <span style="position: absolute;right: 20px;margin-top: 19px;">&gt;</span></a>
+            </div>
+
+            <!--8.底部导航条-->
+            <nav class="navbar-default navbar-fixed-bottom" style="z-index: 1; padding-top: 10px;">
+                <div class="container-fluid" style="padding: 0px;">
+                    <figure class="shouye" style="width: 25%;float: left;text-align: center;">
+                        <a href="小米-首页.html" class="glyphicon glyphicon-home"></a><br>
+                        <h6 style="margin-top: 2px;">首页</h6>
+                    </figure>
+                    <figure class="fenlei" style="width: 25%;float: left;text-align: center;">
+                        <a href="小米-分类.html" class="glyphicon glyphicon-search"></a><br>
+                        <h6 style="margin-top: 2px;">分类</h6>
+                    </figure>
+                    <figure class="gouwuche" style="width: 25%;float: left; text-align: center;">
+                        <a href="小米-购物车.html" class="glyphicon glyphicon-gift"></a><br>
+                         <h6 style="margin-top: 2px;">购物车</h6>
+                    </figure>
+                    <figure class="my" style="width: 25%;float: left; text-align: center;">
+                        <a href="#" class="glyphicon glyphicon-user"></a><br>
+                        <h6 style="margin-top: 2px;">我的</h6>
+                    </figure>
+                </div>
+            </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        <script src="bootstrap/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,199 @@
+height{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    height: 100%;
+}
+/*1.导航条*/
+.navbar{
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    line-height: 30px;
+    margin-bottom: 0px;
+    position: fixed;
+    z-index: 1;
+    background-color: #EF5F23;
+    /*opacity: 0.15;*/
+}
+/*@media screen and (max-height:60px){
+    .navbar{
+        background-color: #EF5B00;
+    }
+}*/
+.navbar div{
+    float: left;
+}
+.navbar div:nth-child(1){
+    /*width: 20%;*/
+    margin-left: 5px;
+}
+.navbar div:nth-child(2){
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+.navbar div input{
+    width: 100%;
+    border: 1px solid grey;
+    background-image: url(image/mimall/sousuo.png);
+    background-repeat: no-repeat;
+    background-size: 150% 40px;
+}
+.navbar div:nth-child(3){
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+/*2.轮播图*/
+.carousel-inner .item img{
+    height: 200px;
+    width: 100%;
+}
+.div1 .zaobao{
+    background-color: wheat;
+    /*margin:10px 0px;*/
+    padding:10px 0px;
+}
+.div1 .zaobao h2{
+    margin:0px;
+    display: inline;
+    font-size: 1.7rem;
+}
+.div1 .zaobao h2:nth-child(2){
+    margin-left: 20px;
+    font-size: 1.3rem;
+    /*line-height: 20px;*/
+    padding:0px 15px;
+    border-left: 2px solid gray;
+}
+/*3.内容*/
+main{
+    width: 100%;
+}
+/*3-1*/
+main .noe{
+    width: 100%;
+    background-color: wheat;
+    margin: 5px 0px;
+}
+/* 清除浮动*/
+.noe::after{
+    display: block;
+    content: " ";
+    visibility: hidden;
+    height: 0px;
+    clear: both;
+}
+.noe .left{
+    float: left;
+    width: 49%;
+    margin:5px 0px;
+}
+.noe .left img{
+    width: 100%;
+}
+.noe .right{
+    float: right;
+    width: 49%;
+    margin:5px 0px;
+    /*margin-left: 1px;*/
+}
+.noe .right img{
+    width: 100%;
+}
+.noe .right img:nth-child(1){
+    height: 101px;
+    margin-bottom: 5px;
+}
+.noe .bottom{
+    width: 100%;
+    padding: 5px 0px;
+    line-height: 0px;
+}
+.noe .bottom img{
+    width: 100%;
+}
+/*3-2*/
+.two{
+    width: 100%;
+    margin: 0px 0px 10px;
+    line-height: 0px;
+    background-color:wheat;
+}
+.two .top{
+    width: 100%;
+    margin-bottom:5px;
+}
+.two .top img{
+    width: 100%;
+    margin-bottom:5px;
+}
+.two .bottom .bottom-left{
+    width: 49%;
+    float: left;
+}
+.bottom-left .tu1{
+    line-height: 15px;
+    /*overflow: hidden;*/
+}
+ul{
+    list-style: none;
+}
+.bottom-left .tu1 img{
+    width: 100%;
+}
+.two .bottom .bottom-right{
+    width: 49%;
+    float: right;
+}
+.bottom::after{
+    display: block;
+    content: " ";
+    visibility: hidden;
+    height: 0px;
+    clear: both;
+}
+.bottom .bottom-right .tu1 img{
+    width: 100%;
+}
+/*3-3*/
+.two{
+    width: 100%;
+    margin: 0px 0px 10px;
+    line-height: 0px;
+    background-color:wheat;
+}
+.three .top{
+    width: 100%;
+    margin-bottom:5px;
+}
+.three .top img{
+    width: 100%;
+    margin-bottom:5px;
+}
+.three .bottom .bottom-left{
+    width: 49%;
+    float: left;
+}
+.three .bottom .bottom-right{
+    width: 49%;
+    float: right;
+}
+/*3-5*/
+.mitu::after{
+    display: block;
+    content: " ";
+    visibility: hidden;
+    height: 0px;
+    clear: both;
+}
+/*4.底部*/
+.navbar-fixed-bottom::after{
+    display: block;
+    content: " ";
+    visibility: hidden;
+    height: 0px;
+    clear: both;
+}
